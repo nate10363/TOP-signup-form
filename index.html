@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="main-img">
+        <img id="gods" src="https://images.unsplash.com/photo-1624213292547-8a6e2fddbbc2?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        <p id="title">ODYSSEUS</p>
+    </div>
+
+    <header>
+        <div>
+            <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.  Sign up <span class="italic">now</span> to get started.</h2>
+            <h2>You <span class="italic">know</span> you want to.</h2>
+        </div>
+    </header>
+
+    <main>
+        <form action="objects.js" method="post">
+            <div id="fieldset">
+                <h4>Let's do this!</h4><br>
+
+                <label for="first_name">FIRST NAME <br><input type="text" name="first_name" id="first_name" required></label>
+                <label for="last_name">LAST NAME <br><input type="text" name="last_name" id="last_name" required></label>
+                <label for="email">EMAIL <br><input type="email" name="email" id="email" required></label>
+                <label for="phone">PHONE NUMBER <br><input type="text" min="10" max="11" name="phone" id="phone" required></label>
+                <label for="password">PASSWORD <br><input type="password" name="password" id="password" class="error" required></label>
+                <label for="password_confirm">CONFIRM PASSWORD <br><input type="password" name="password_confirm" id="password_confirm" class="error" required></label>
+            </div>
+            <button id="create" type="submit">Create Account</button>
+        </form>
+
+
+        <p id="accounted">Already have an account? <span id="login">Log in</span></p>
+    </main>
+
+
+
+      <script src="script.js"></script>
+      <script src="objects.js"></script>
+</body>
+</html>

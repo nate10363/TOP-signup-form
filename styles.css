@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+}
+
+#title {
+    position: absolute;
+    z-index: 5;
+    background-color: black;
+    top: 36%;
+    width: 447.8px;
+    height: 70px;
+    opacity: .7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFDD0;
+    font-size: 32px;
+}
+
+#gods {
+    position: absolute;
+    margin-top: -50px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: .8em;
+    width: 45vw;
+    padding-left: 25px;
+}
+
+header, main {
+    margin: 50px 22.12px 0 447.88px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#fieldset {
+    height: 40vh;
+    width: calc(100vw - 447.88px);
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px 5px #888888;
+
+    margin-bottom: 45px;
+}
+
+h4 {
+    font-size: 24px;
+    margin-bottom: -10px;
+}
+
+label {
+    font-size: 14px;
+}
+
+/* input:invalid {
+    border-color: red;
+}
+
+input:invalid {
+    border-color: green;
+} */
+
+button {
+    background-color: olivedrab;
+    color: #FFFDD0; 
+    margin-left: 60px;
+    font-size: 18px;
+    height: 27px;
+    border-radius: 10px;
+}
+
+#accounted {
+    margin-left: 60px;
+}
+
+#login {
+    color: olivedrab;
+}
+
+#output {
+    font-size: 20px; 
+    color: black;
+}
